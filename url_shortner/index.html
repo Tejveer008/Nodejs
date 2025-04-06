@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>URL Shortener</title>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans h-screen m-0">
+
+  <!-- Full screen center container -->
+  <div class="flex items-center justify-center h-full">
+    <div class="flex flex-col items-center justify-center w-full max-w-sm bg-white p-6 rounded-lg shadow-md">
+      <h1 class="text-4xl font-bold mb-4">URL Shortener</h1>
+      <form id="urlForm" class="w-full">
+        <div>
+          <label for="url" class="block mb-1 font-medium">Enter URL</label>
+          <input type="url" id="url" name="url" class="w-full p-2 mb-4 border border-gray-300 rounded" placeholder="https://example.com" required>
+        </div>
+        <div>
+          <label for="shortCode" class="block mb-1 font-medium">Enter ShortCode</label>
+          <input type="text" id="shortCode" name="shortCode" class="w-full p-2 mb-4 border border-gray-300 rounded" placeholder="Example" required>
+        </div>
+        <button type="submit" class="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600">Shorten URL</button>
+      </form>
+      <h2 class="mt-4 font-bold">Shortened URLs</h2>
+      <ul id="shortend-urls" class="list-disc list-inside mt-4"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
