@@ -1,0 +1,9 @@
+# Node modules
+node_modules/
+
+# Optional: OS-specific files
+.DS_Store
+
+
+# Optional: dotenv files (for env vars)
+.env

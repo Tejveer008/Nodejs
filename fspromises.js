@@ -17,10 +17,10 @@ const filePath =path.join(__dirname, fileName);
 // .then((data)=> console.log(data))
 // .catch((err)=>console.log(err));
 
-
-fs.writeFile(filePath,"Hello Their I'm Promises!","utf-8")
-.then(console.log("File Created Successfully!"))
-.catch((err)=>console.log(err));
+// <-------------------------------------------------------------->
+// fs.writeFile(filePath,"Hello Their I'm Promises!","utf-8")
+// .then(console.log("File Created Successfully!"))
+// .catch((err)=>console.log(err));
 
 // fs.promises.readFile(filePath,"utf-8")
 // .then((data)=>console.log(data))

@@ -1,0 +1,29 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tejveer008/Nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tejveer008/Nodejs/issues"
+  },
+  "homepage": "https://github.com/Tejveer008/Nodejs#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodejs": "file:",
+    "nodemon": "^3.1.9",
+    "npm": "^11.2.0",
+    "tailwindcss": "^4.1.3"
+  }
+}
